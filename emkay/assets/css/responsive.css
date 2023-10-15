@@ -1,0 +1,232 @@
+/* ------------------------------------------------------------- */
+/*  RESPONSIVE DESIGN */
+/* ------------------------------------------------------------- */
+
+/* ----- Large Devices, Wide Screens ----- */
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* ----- Medium Devices, Desktops ----- */
+@media only screen and (max-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+
+  .section-pad-top {
+    padding-top: 60px;
+  }
+
+  .section-pad-vertical {
+    padding: 60px 0;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+
+  .navbar-nav .active {
+    border: none;
+    border-bottom: 2px solid var(--grey-light-color);
+  }
+
+  .logo {
+    height: 2.5rem;
+  }
+
+  .logo-small {
+    height: 2.25rem;
+  }
+
+  .blockquote {
+    font-size: 1.05rem;
+    max-width: 70%;
+  }
+
+  .interior-design .carousel-inner img {
+    height: 100%;
+  }
+}
+
+/* ----- Small Devices, Tablets ----- */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  .navbar-collapse {
+    background-color: var(--main-color-rgb);
+    padding: 10px;
+    border-radius: 3px;
+  }
+
+  .navbar-collapse .nav-link {
+    color: #8f8f8f;
+  }
+
+  .logo {
+    height: 3.5rem;
+  }
+
+  .logo-small {
+    height: 3rem;
+  }
+
+  /* .carousel-item--one {
+    background-image: linear-gradient(var(--main-bg-rgba), var(--main-bg-rgba)),
+      url("img/home/house-with-swimming-pool-mobi.jpg");
+    background-image: -o-linear-gradient(
+        var(--main-bg-rgba),
+        var(--main-bg-rgba)
+      ),
+      url("img/home/house-with-swimming-pool-mobi.jpg");
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(var(--main-bg-rgba)),
+        to(var(--main-bg-rgba))
+      ),
+      url("img/home/house-with-swimming-pool-mobi.jpg");
+    background-size: 100% 100%;
+  }
+
+  .carousel-item--two {
+    background-image: linear-gradient(var(--main-bg-rgba), var(--main-bg-rgba)),
+      url("img/home/house-with-pool-and-fountain-mobi.jpg");
+    background-image: -o-linear-gradient(
+        var(--main-bg-rgba),
+        var(--main-bg-rgba)
+      ),
+      url("img/home/house-with-pool-and-fountain-mobi.jpg");
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(var(--main-bg-rgba)),
+        to(var(--main-bg-rgba))
+      ),
+      url("img/home/house-with-pool-and-fountain-mobi.jpg");
+    background-size: 100% 100%;
+  }
+
+  .carousel-item--third {
+    background-image: linear-gradient(var(--main-bg-rgba), var(--main-bg-rgba)),
+      url("img/home/open-view-lounge-interior-mobi.jpg");
+    background-image: -o-linear-gradient(
+        var(--main-bg-rgba),
+        var(--main-bg-rgba)
+      ),
+      url("img/home/open-view-lounge-interior-mobi.jpg");
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(var(--main-bg-rgba)),
+        to(var(--main-bg-rgba))
+      ),
+      url("img/home/open-view-lounge-interior-mobi.jpg");
+    background-size: 100% 100%;
+  }
+
+  .carousel-item--four {
+    background-image: linear-gradient(var(--main-bg-rgba), var(--main-bg-rgba)),
+      url("img/home/modern-house-with-mountain-view-mobi.jpg");
+    background-image: -o-linear-gradient(
+        var(--main-bg-rgba),
+        var(--main-bg-rgba)
+      ),
+      url("img/home/modern-house-with-mountain-view-mobi.jpg");
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(var(--main-bg-rgba)),
+        to(var(--main-bg-rgba))
+      ),
+      url("img/home/modern-house-with-mountain-view-mobi.jpg");
+    background-size: 100% 100%;
+  } */
+
+  .row {
+    padding: 0;
+  }
+
+  .box p {
+    font-size: 100%;
+    line-height: 150%;
+  }
+
+  .blockquote {
+    font-size: 1rem;
+    max-width: 80%;
+    border-left: 0.25rem solid rgba(166, 166, 166, 0.54);
+  }
+
+  .blockquote::before {
+    font-size: 5rem;
+  }
+}
+
+/* ----- Extra Small Devices, Phones ----- */
+@media only screen and (max-width: 480px) {
+  .section-pad-top {
+    padding-top: 35px;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+
+  #blockquoteCarousel {
+    margin-top: -3rem;
+  }
+
+  .blockquote {
+    max-width: 100%;
+    border-left: 0;
+    line-height: 1.5;
+  }
+
+  .blockquote::before {
+    font-size: 4rem;
+    top: 3rem;
+    left: 1.5rem;
+  }
+
+  .mk-contact-item {
+    margin-bottom: 2rem;
+  }
+
+  .expectise--container {
+    margin: 4rem auto;
+    width: 90%;
+  }
+}
+
+/* ----- Custom, iPhone Retina ----- */
+@media only screen and (max-width: 320px) {
+  .navbar-toggler-icon {
+    height: 1em;
+    width: 1em;
+  }
+
+  h1 {
+    font-size: 220%;
+  }
+
+  .logo-small {
+    height: 2rem;
+  }
+
+  .profile-card {
+    width: 100%;
+  }
+
+  .profile-card .profile {
+    bottom: 55%;
+  }
+}
