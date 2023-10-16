@@ -64,6 +64,11 @@ $(document).ready(function () {
 
   /* load youtube js overlay */
   loadYTVideoPlayer();
+
+  // Handle Image Popup
+  $("#galleryModal").on("show.bs.modal", (e) => {
+    $("#galleryImage").attr("src", $(e.relatedTarget).data("large-src"));
+  });
 });
 
 function loadYTVideoPlayer() {

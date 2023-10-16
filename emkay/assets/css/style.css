@@ -199,14 +199,12 @@ h3 {
 
 /* ----- LOGO ----- */
 .logo {
-  /* height: 80px; */
   height: 5rem;
   width: auto;
 }
 
 .logo-small {
   display: none;
-  /* height: 50px; */
   height: 3.75rem;
   width: auto;
   margin: 5px 0;
@@ -347,7 +345,6 @@ h3 {
       to(var(--main-bg-rgba))
     ),
     url("img/home/house-with-swimming-pool.jpg");
-  /* background-size: 100% 100%; */
 }
 
 .carousel-item--two {
@@ -363,7 +360,6 @@ h3 {
       to(var(--main-bg-rgba))
     ),
     url("img/home/house-with-pool-and-fountain.jpg");
-  /* background-size: 100% 100%; */
 }
 
 .carousel-item--third {
@@ -379,7 +375,6 @@ h3 {
       to(var(--main-bg-rgba))
     ),
     url("img/home/open-view-lounge-interior.jpg");
-  /* background-size: 100% 100%; */
 }
 
 .carousel-item--four {
@@ -395,7 +390,6 @@ h3 {
       to(var(--main-bg-rgba))
     ),
     url("img/home/modern-house-with-mountain-view.jpg");
-  /* background-size: 100% 100%; */
 }
 
 .carousel-caption {
@@ -521,7 +515,6 @@ h3 {
 /* Image */
 .portfolio__img {
   object-fit: cover;
-  /* min-height: 350px; */
 }
 
 /* Call to Action on Project Page */
@@ -634,23 +627,6 @@ h3 {
   margin-top: 10px;
 }
 
-/* h2 {
-  font-size: 180%;
-  word-spacing: 2px;
-  text-align: center;
-  margin-bottom: 30px;
-} */
-
-/* h2:after {
-  display: block;
-  height: 2px;
-  background-color: var(--grey-light-color);
-  content: "";
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 30px;
-} */
-
 .profile-card i {
   display: inline-block;
   font-size: 16px;
@@ -669,16 +645,6 @@ h3 {
   width: 100%;
   margin-bottom: 15px;
 }
-
-/* .profile-card .icon-block:before {
-  display: block;
-  height: 2px;
-  background-color: var(--grey-light-color);
-  content: "";
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 30px;
-} */
 
 .profile-card .icon-block a {
   text-decoration: none;
@@ -743,10 +709,6 @@ h3 {
 
 .interior-design .carousel-inner img {
   height: 440px;
-}
-
-.interior-design .card {
-  cursor: auto;
 }
 
 /* ------------------------------------------------------------- */
