@@ -16,17 +16,22 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
 .pace-running .entire-content {
-	opacity: 0;
+  opacity: 0;
 }
 
 .pace-done .entire-content {
-	opacity: 1;
-	transition:all 2s ease-in;
+  opacity: 1;
+  transition: all 2s ease-in;
 }
 
 /*--------------------------------------------------------------
@@ -93,7 +98,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -167,12 +173,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active > a i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -301,7 +311,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -434,7 +444,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 
@@ -464,11 +475,11 @@ section {
   background: rgba(0, 0, 0, 0.8);
   visibility: hidden;
   opacity: 0;
-  transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .portfolio-item .portfolio-wrap img {
-  transition: .3s transform ease;
+  transition: 0.3s transform ease;
   transform: scale(1);
 }
 
@@ -483,7 +494,7 @@ section {
   opacity: 0;
   visibility: hidden;
   margin-top: 20px;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
 }
 
 .portfolio-item .portfolio-wrap > .portfolio-info h3 {
@@ -494,7 +505,7 @@ section {
 .portfolio-item .portfolio-wrap > .portfolio-info span {
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 .portfolio-item .portfolio-wrap:hover {
@@ -515,7 +526,6 @@ section {
   opacity: 1;
   visibility: visible;
 }
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -588,7 +598,9 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
@@ -662,7 +674,8 @@ section {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -768,7 +781,8 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
