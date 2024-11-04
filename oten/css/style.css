@@ -22,7 +22,8 @@ h5,
 .h2,
 .h3,
 .h5 {
-  color: #000;
+  /* color: #000; */
+  color: rgb(24 52 86);
 }
 
 a {
@@ -442,15 +443,18 @@ a:hover {
 }
 
 .site-navbar-wrap.scrolled .site-menu-toggle span {
-  color: #000;
+  /* color: #000; */
+  color: rgb(24 52 86);
 }
 
 .site-navbar-wrap.scrolled .site-logo a {
-  color: #000;
+  /* color: #000; */
+  color: rgb(24 52 86);
 }
 
 .site-navbar-wrap.scrolled .site-navbar .site-navigation .site-menu > li > a {
-  color: rgba(0, 0, 0, 0.6);
+  /* color: rgba(0, 0, 0, 0.6); */
+  color: rgb(24 52 86);
 }
 
 .site-navbar-wrap.scrolled
@@ -459,7 +463,8 @@ a:hover {
   .site-menu
   > li
   > a:hover {
-  color: #000;
+  /* color: #000; */
+  color: rgb(24 52 86);
 }
 
 .site-navbar-wrap.scrolled
